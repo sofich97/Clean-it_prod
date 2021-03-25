@@ -1,11 +1,191 @@
-/*header*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Raleway, sans-serif;
+}
 
 
+/*------------HEADER-----------------------------*/
+
+.wrapper {
+    background: url("Images/background.png") no-repeat right;
+}
+
+.header_logo {
+    margin-top: 44px;
+}
+
+.header_menu {
+    font-weight: bold;
+    margin-top: 60.55px;
+    font-size: 18px;
+}
+
+.header_menu_link {
+    color: #593D3D;
+    text-decoration: none;
+    margin-right: 32px;
+}
+
+.header_menu_link:hover {
+    color: #593D3D;
+    text-decoration: none;
+}
+
+.header_menu_button {
+    font-weight: bold;
+    border-radius: 2rem;
+    border: 2px solid #FFFFFF;
+    background-color: transparent;
+    color: #FFFFFF;
+    width: 106px;
+    height: 47px;
+    transition: 0.2s;
+}
+
+.header_menu_button:hover {
+    background: #FFD836;
+    border-color: #FFD836;
+}
+
+.header_menu_button:focus {
+    outline: none;
+}
 
 
-/*main*/
+/*--------------OFFER---------------------*/
 
+.offer_title {
+    margin-top: 116.97px;
+    font-weight: bold;
+    line-height: 42px;
+    font-size: 49px;
+    color: #FFD836;
+}
 
+.offer_title_span {
+    color: #6882EF;
+}
 
+.offer_description {
+    margin-top: 21px;
+    font-size: 14px;
+    color: #593D3D;
+}
 
-/*footer*/
+.offer_button {
+    margin: 100.32px 0 107.68px 0;
+    width: 220px;
+    height: 60px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background: transparent linear-gradient(90deg, #8DA3FF 0%, #6781EF 100%);
+    border: none;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.offer_button:hover {
+    background: #FFD836;
+}
+
+.offer_button:focus {
+    outline: none;
+}
+
+.offer_img {
+    margin-top: 51.95px;
+}
+
+/*-----------------MAIN-----------------------*/
+
+.menu {
+    background: #6882EF 0 0 no-repeat padding-box;
+}
+
+.menu_title {
+    margin: 65px 0 20px 0;
+    font-size: 24px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+
+}
+
+.menu_title:hover {
+    cursor: pointer;
+    color: #FFD836;
+}
+
+.menu_triangle {
+    width: 0;
+    height: 0;
+    border-left: 28px solid transparent;
+    border-right: 28px solid transparent;
+    margin-left: 78.133px;
+    border-bottom: 36px solid #FFD836;
+}
+
+.menu_line {
+    height: 11px;
+    background: #FFD836 0 0 no-repeat padding-box;
+
+}
+
+.main_row {
+    background: #F4F5F7 0 0 no-repeat padding-box;
+}
+
+.regularly {
+    margin: 95.5px 0 65.23px 139px;
+    left: 0;
+    background: #F4F5F7 0 0 no-repeat padding-box;
+}
+
+.menu_line_title {
+    margin-top: 90px;
+    /*margin: 90px 606px 31px 0;*/
+    font-weight: bold;
+    font-size: 49px;
+    color: #6882EF;
+}
+
+.menu_line_icon {
+    margin-top: 32.84px;
+}
+
+.menu_line_description {
+    margin-top: 32.84px;
+    font-size: 16px;
+    font-style: italic;
+    color: #6882EF;
+}
+
+.menu_line_typeCleaning {
+    margin-top: 25px;
+    font-size: 14px;
+    color: #593D3D;
+}
+
+.menu_line_button {
+    margin: 24px 0 68.84px 0;
+    width: 268px;
+    height: 60px;
+    background: transparent linear-gradient(90deg, #8DA3FF 0%, #6781EF 100%);
+    border: none;
+    border-radius: 30px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #FFFFFF;
+    transition: 0.7s;
+}
+
+.menu_line_button:hover {
+    background: #FFD836;
+}
+
+.menu_line_button:focus {
+    outline: none;
+}
