@@ -12,11 +12,6 @@ function App() {
             </div>
             <Footer/>
         </div>
-        // <div className={'wrapper'}>
-        //     <Header/>
-        //     <Main/>
-        //     <Footer/>
-        // </div>
     )
 }
 
