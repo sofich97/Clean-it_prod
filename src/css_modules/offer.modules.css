@@ -1,0 +1,42 @@
+.offer_title {
+    margin-top: 116.97px;
+    font-weight: bold;
+    line-height: 42px;
+    font-size: 49px;
+    color: #FFD836;
+}
+
+.offer_title_span {
+    color: #6882EF;
+}
+
+.offer_description {
+    margin-top: 21px;
+    font-size: 14px;
+    color: #593D3D;
+}
+
+.offer_button {
+    margin: 100.32px 0 107.68px 0;
+    width: 220px;
+    height: 60px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background: transparent linear-gradient(90deg, #8DA3FF 0%, #6781EF 100%);
+    border: none;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.offer_button:hover {
+    background: #FFD836;
+}
+
+.offer_button:focus {
+    outline: none;
+}
+
+.offer_img {
+    margin-top: 51.95px;
+}

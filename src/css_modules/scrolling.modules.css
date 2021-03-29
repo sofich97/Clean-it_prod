@@ -1,0 +1,35 @@
+.menu {
+    background: #6882EF 0 0 no-repeat padding-box;
+}
+
+.menu_title {
+    margin: 65px 0 20px 0;
+    font-size: 24px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+
+}
+
+.menu_title:hover {
+    cursor: pointer;
+    color: #FFD836;
+}
+
+.menu_triangle {
+    width: 0;
+    height: 0;
+    border-left: 28px solid transparent;
+    border-right: 28px solid transparent;
+    margin-left: 78.133px;
+    border-bottom: 36px solid #FFD836;
+}
+
+.menu_triangle.active {
+    transition: 1s;
+}
+
+.menu_line {
+    height: 11px;
+    background: #FFD836 0 0 no-repeat padding-box;
+
+}

@@ -41,7 +41,7 @@
 
 .main_col {
     /*background: #FFFFFF;*/
-    background: url(./../Images/background.png) no-repeat center;
+    background: url(../../Images/background.png) no-repeat center;
     background-size: cover;
     /*opacity: 0.7;*/
 
@@ -49,7 +49,6 @@
 
 .menu_line_title {
     margin-top: 90px;
-    /*margin: 90px 606px 31px 0;*/
     font-weight: bold;
     font-size: 49px;
     color: #6882EF;
@@ -57,6 +56,12 @@
 
 .menu_line_icon {
     margin-top: 32.84px;
+}
+
+.icon {
+    width: 28px;
+    height: 37px;
+    color: #6882EF;
 }
 
 .menu_line_description {

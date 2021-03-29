@@ -1,17 +1,20 @@
 import './App.css';
-import Header from "./components/Header";
-import Main from "./components/Main";
 import Footer from "./components/Footer";
+import MainSection from "./components/MainSection/MainSection";
+import TypeOfCleaning from "./components/TypeOfCleaning";
+import React from "react";
+import {BrowserRouter} from "react-router-dom";
 
 function App() {
     return (
-        <div>
-            <div className='wrapper'>
-                <Header/>
-                <Main/>
+        <BrowserRouter>
+            <div>
+                <MainSection/>
+                {/*<TypeOfCleaning/>*/}
+                {/*<Footer/>*/}
             </div>
-            <Footer/>
-        </div>
+        </BrowserRouter>
+
     )
 }
 
