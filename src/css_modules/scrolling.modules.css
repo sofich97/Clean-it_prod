@@ -22,9 +22,21 @@
     border-right: 28px solid transparent;
     margin-left: 78.133px;
     border-bottom: 36px solid #FFD836;
+    transition: 1s;
 }
 
-.menu_triangle.active {
+.menu_triangle.deep_margin {
+    margin-left: 400px;
+    transition: 1s;
+}
+
+.menu_triangle.office_margin {
+    margin-left: 685px;
+    transition: 1s;
+}
+
+.menu_triangle.windows_margin {
+    margin-left: 985px;
     transition: 1s;
 }
 
@@ -32,4 +44,9 @@
     height: 11px;
     background: #FFD836 0 0 no-repeat padding-box;
 
+}
+
+.main_col {
+    background: url(../Images/background.png) no-repeat center;
+    background-size: cover;
 }

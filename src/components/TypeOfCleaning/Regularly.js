@@ -1,13 +1,11 @@
 import React from 'react';
 import { GiLargePaintBrush } from 'react-icons/gi';
 import {regularly} from "../../utils/constants";
-import Scrolling from "../MainSection/Scrolling";
 import "../../css_modules/typeOfCleaning/regularly.modules.css"
 
 const Regularly = () => {
     return (
         <div>
-            <Scrolling/>
             <div className="container-fluid menu_line">
                 <div className="row main_row">
                     <div className="col-4">

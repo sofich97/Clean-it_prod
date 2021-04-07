@@ -2,12 +2,11 @@ import React from 'react';
 import "../../css_modules/typeOfCleaning/office.modules.css"
 import {GiLargePaintBrush} from "react-icons/gi";
 import {office} from "../../utils/constants";
-import Scrolling from "../MainSection/Scrolling";
+
 
 const Office = () => {
     return (
         <div>
-            <Scrolling/>
             <div className="container-fluid menu_line">
                 <div className="row main_row">
                     <div className="col-4">
