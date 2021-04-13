@@ -1,23 +1,25 @@
 import './App.css';
 import Footer from "./components/Footer";
 import MainSection from "./components/MainSection/MainSection";
-import TypeOfCleaning from "./components/TypeOfCleaning";
 import React from "react";
 import {BrowserRouter, Route} from "react-router-dom";
 import Scrolling from "./components/TypeOfCleaning/Scrolling";
+import EasybaseProvider from "easybase-react";
+import ebconfig from "./ebconfig";
 
 function App() {
 
     return (
-        <BrowserRouter>
-            <div>
-                <MainSection/>
-                <Route render={(routeProps) => <Scrolling {...routeProps}/>}/>
-                {/*<Scrolling/>*/}
-                {/*<TypeOfCleaning/>*/}
-                {/*<Footer/>*/}
-            </div>
-        </BrowserRouter>
+        // <EasybaseProvider ebconfig={ebconfig}>
+            <BrowserRouter>
+                <div>
+                    <MainSection/>
+                    <Route render={(routeProps) => <Scrolling {...routeProps}/>}/>
+                    {/*<Footer/>*/}
+                </div>
+            </BrowserRouter>
+        // </EasybaseProvider>
+
 
     )
 }

@@ -4,13 +4,9 @@ import Offer from "./Offer";
 
 const MainSection = () => {
     return (
-        <div>
-            <div className='wrapper'>
-                <Header/>
-                <Offer/>
-            </div>
-            {/*<Scrolling/>*/}
-            {/*<TypeOfCleaning/>*/}
+        <div className='wrapper'>
+            <Header/>
+            <Offer/>
         </div>
     );
 };
